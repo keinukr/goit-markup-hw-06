@@ -746,9 +746,18 @@ img {
 .modal-input {
   width: 100%;
   height: 40px;
-  margin-bottom: 26px;
+  margin-bottom: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  padding: 0 16px;
+}
+
+.modal-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-btn {
@@ -789,4 +798,27 @@ img {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
   color: var(--accent-color);
+}
+
+.input-label {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: var(--customers-text-color);
+  margin-bottom: 4px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+}
+
+.comment-input {
+  height: 120px;
+  margin-bottom: 16px;
 }
