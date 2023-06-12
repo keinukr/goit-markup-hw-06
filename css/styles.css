@@ -567,18 +567,8 @@ img {
   padding: 8px 24px;
 }
 
-.footer-sub-btn {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .send-icon {
-  position: absolute;
-  display: block;
   fill: var(--white-text-color);
-  right: 24px;
   margin-left: 16px;
 }
 
