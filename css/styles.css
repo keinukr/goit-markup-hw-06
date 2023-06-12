@@ -567,12 +567,12 @@ img {
   padding: 8px 24px;
 }
 
-.subscribe-wrap {
+/* .subscribe-wrap {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 .send-icon {
   position: absolute;
