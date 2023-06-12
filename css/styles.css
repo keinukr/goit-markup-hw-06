@@ -848,50 +848,44 @@ img {
 }
 
 .policy-container {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24px; */
   margin-bottom: 24px;
 }
 
+.user-privacy:checked + .user-privacy-text .policy-text {
+  border: none;
+  background-color: var(--hover-color);
+  fill: var(--footer-text-color);
+}
+
 .user-privacy-text {
-  /* font-weight: 400; */
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customers-text-color);
 }
 
-.policy-link {
+.policy-text {
   width: 16px;
   height: 16px;
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
-  /* text-decoration-line: underline; */
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color var(--transition-time),
     border var(--transition-time), fill var(--transition-time);
-}
-
-.policy-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
-.vector {
-  fill: var(--footer-text-color);
-}
-
-.policy-text {
+.policy-link {
   color: var(--accent-color);
+  text-decoration-line: underline;
 }
 
 .modal-btn {
