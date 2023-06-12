@@ -805,7 +805,7 @@ img {
   padding: 8px 16px;
   background-color: transparent;
   outline: transparent;
-  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-text:focus,
@@ -839,10 +839,10 @@ img {
 
 .user-privacy-text {
   font-weight: 400;
-font-size: 12px;
-line-height: 1.17px;
-letter-spacing: 0.04em;
-color: var(--customers-text-color);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customers-text-color);
 }
 
 .input-label {
@@ -858,18 +858,20 @@ color: var(--customers-text-color);
   width: 16px;
   height: 16px;
   font-weight: 400;
-font-size: 12px;
-line-height: 1.33;
-letter-spacing: 0.04em;
-text-decoration-line: underline;
-color: var(--accent-color);
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 2px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: inline-flex;
-align-items: center;
-justify-content: center;
-fill: transparent;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  color: var(--accent-color);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .vector {
