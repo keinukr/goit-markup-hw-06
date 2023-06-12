@@ -775,10 +775,9 @@ img {
 .modal-input {
   width: 100%;
   height: 40px;
-  margin-bottom: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  padding-left: 38px;
+  padding: 0 0 0 38px;
   background-color: transparent;
   outline: transparent;
   transition: border-color var(--transition-time);
@@ -795,19 +794,20 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill var(--transition-time);
+  color: var(--title-text-color);
 }
 
-/* .name::after {
+.name::after {
   content: '';
   display: flex;
-  left: 34px;
+  left: 38px;
   position: absolute;
   width: 18px;
   height: 0px;
   color: var(--black-text);
   border: 1.25px solid var();
   transform: rotate(90deg);
-} */
+}
 
 .modal-input:focus + .name {
   fill: var(--accent-color);
