@@ -795,9 +795,11 @@ img {
   transform: translateY(-50%);
   transition: fill var(--transition-time);
   color: var(--title-text-color);
+  width: 12px;
+  height: 12px;
 }
 
-.user-name {
+/* .user-name {
   width: 12px;
   height: 12px;
 }
@@ -810,7 +812,7 @@ img {
 .user-email {
   width: 15px;
   height: 12px;
-}
+} */
 
 .modal-input:focus + .name {
   fill: var(--accent-color);
